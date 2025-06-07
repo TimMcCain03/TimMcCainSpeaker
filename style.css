@@ -47,26 +47,26 @@ body {
   align-items: center;
 }
 
-.menu-items {
+.nav-links {
   order: 2;
   display: flex;
 }
 
-.menu-items li {
+.nav-links li {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 
-.menu-items a {
+.nav-links a {
   text-decoration: none;
   color: #444;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
-.menu-items a:hover {
+.nav-links a:hover {
   color: #117964;
 }
 
@@ -74,6 +74,12 @@ section {
   padding: 4em 2em;
   max-width: 1000px;
   margin: auto;
+}
+
+.logo {
+  order: 1;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero {
@@ -242,7 +248,7 @@ footer {
     transition: transform 0.4s ease-in-out;
   }
 
-  .navbar .menu-items {
+  .navbar .nav-links {
     padding-top: 100px;
     background: #fff;
     height: 100vh;
@@ -256,13 +262,13 @@ footer {
     box-shadow: 5px 0px 10px 0px #aaa;
   }
 
-  .navbar .menu-items li {
+  .navbar .nav-links li {
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
     font-weight: 500;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked ~ .nav-links {
     transform: translateX(0);
   }
 
@@ -276,5 +282,12 @@ footer {
 
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
+  }
+
+  .logo {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 2rem;
   }
 }
