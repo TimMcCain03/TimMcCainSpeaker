@@ -155,8 +155,28 @@ section {
   text-align: center;
 }
 
+#about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+}
+
 .btn {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
   margin-top: 1em;
   padding: 0.75em 1.5em;
   background: #007bff;
