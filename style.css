@@ -10,6 +10,7 @@ body {
   color: #333;
   background: #fff;
   line-height: 1.6;
+  text-align: left;
 }
 
 .header {
@@ -295,4 +296,51 @@ footer {
     right: 15px;
     font-size: 2rem;
   }
+}
+
+/* contact form styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  border-radius: 5px;
+}
+.contactForm .label{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.p-4 {
+  padding: 1.5rem;
+}
+.w-100 {
+  width: 100%;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+.contactForm .form-group:last-child {
+  margin-top: 2em;
 }
