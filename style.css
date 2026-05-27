@@ -50,6 +50,8 @@ body {
 .nav-links {
   order: 2;
   display: flex;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .nav-links li {
@@ -257,7 +259,7 @@ footer {
   .navbar .nav-links {
     padding-top: 100px;
     background: #fff;
-    height: 100vh;
+    height: 50vh;
     max-width: 300px;
     transform: translate(-150%);
     display: flex;
